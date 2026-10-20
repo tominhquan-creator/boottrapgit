@@ -1,0 +1,80 @@
+body { 
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: #f2f4f7;  
+    line-height: 1.5; 
+} 
+.container { 
+    max-width: 1000px; 
+    margin: 10px auto; 
+    padding: 0 15px; 
+} 
+.header { 
+    background-color: #ffffff; 
+    padding: 15px 200px; 
+    display: flex; 
+    align-items: center; 
+    gap: 25px;  
+} 
+.logo { 
+    height: 100px; 
+    width: auto; 
+    text-align: center;
+} 
+.school-name { 
+    margin: 0; 
+    font-size: 22px; 
+    color: #b50d0d;  
+    font-weight: bold; 
+} 
+.navbar { 
+    background-color: #b50d0d; 
+} 
+.navbar .menu{ 
+    list-style: none; 
+    display: flex;  
+    margin: 0; 
+    padding: 0; 
+} 
+.navbar .menu a { 
+    display: block; 
+    padding: 12px 25px; 
+    color: #ffffff; 
+    text-decoration: none; 
+    font-weight: bold; 
+    font-size: 15px; 
+} 
+.navbar .menu a:hover { 
+    background-color: #8b0808;  
+} 
+.card { 
+    background-color: #ffffff; 
+    padding: 30px; 
+    border-radius: 10px;  
+} 
+.card-title { 
+    margin-top: 0; 
+    color: #051052; 
+    font-size: 24px; 
+} 
+.card-img { 
+    width: 100%; 
+    max-height: 350px; 
+    border-radius: 10px; 
+    object-fit: cover;  
+    margin: 15px 0; 
+} 
+.btn { 
+    display: inline-block; 
+    padding: 10px 22px; 
+    background-color: #b50d0d; 
+    color: #ffffff; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    font-weight: bold; 
+    margin-top: 10px; 
+} 
+.btn:hover { 
+    background-color: #8b0808; 
+}

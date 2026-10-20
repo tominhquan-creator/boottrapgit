@@ -1,0 +1,17 @@
+ body {
+            background-color: #ffe5cc;
+            padding: 10px 40px;
+            font-family: sans-serif;
+              text-align: center;
+        }
+
+        h1 {
+            color: red;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        ol {
+            color: darkblue;    
+            font-size: 18px;
+        }

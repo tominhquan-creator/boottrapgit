@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký Khoá Học</title>
+</head>
+<body>
+    <h1 align="center">ĐĂNG KÝ KHOÁ HỌC</h1>
+    <form action="" method="POST">
+
+        <fieldset>
+            <legend>Thông tin cá nhân</legend>
+
+            <label for="hoten">Họ và tên:</label><br>
+            <input type="text" id="hoten" name="hoten" placeholder="Nguyễn Văn A"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com"><br><br>
+
+            <label for="matkhau">Mật khẩu</label><br>
+            <input type="password" id="matkhau" name="matkhau" placeholder="Tối thiểu 6 ký tự"><br><br>
+
+            <label for="ngaysinh">Ngày sinh</label><br>
+            <input type="date" id="ngaysinh" name="ngaysinh"><br><br>
+
+            <label>Giới tính</label><br>
+            <input type="radio" id="nam" name="gioitinh" value="nam" checked>
+            <label for="nam">Nam</label>
+            <input type="radio" id="nu" name="gioitinh" value="nu">
+            <label for="nu">Nữ</label><br><br>
+
+            <label for="sodt">Số điện thoại</label><br>
+            <input type="tel" id="sodt" name="sodt" placeholder="0912888889">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Thông tin khoá học:</legend>
+
+            <label for="khoahoc">Chọn khoá học</label><br>
+            <select id="khoahoc" name="khoahoc">
+                <option value="python">Lập trình Python</option>
+                <option value="web">Thiết kế Web</option>
+                <option value="java">Lập trình Java</option>
+            </select><br><br>
+
+            <label>Hình thức học:</label><br>
+            <input type="checkbox" id="tructuyen" name="hinhthuc" value="tructuyen">
+            <label for="tructuyen">Học trực tuyến</label>
+            <input type="checkbox" id="tructiep" name="hinhthuc" value="tructiep">
+            <label for="tructiep">Học trực tiếp</label><br><br>
+
+            <label for="gioithieu">Giới thiệu bản thân:</label><br>
+            <textarea id="gioithieu" name="gioithieu" rows="4" cols="40" placeholder="Giới thiệu đôi nét về bản thân và mục tiêu học tập"></textarea><br><br>
+
+            <label for="taianh">Tải ảnh</label><br>
+            <input type="file" id="taianh" name="taianh">
+        </fieldset>
+        <br>
+        <input type="checkbox" id="dieukhoan" name="dieukhoan">
+        <label for="dieukhoan">Tôi đồng ý với các điều khoản.</label><br><br>
+
+        <input type="submit" value="Đăng ký">
+        <input type="reset" value="Nhập lại">
+
+    </form>
+</body>
+</html>
